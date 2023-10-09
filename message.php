@@ -1,6 +1,6 @@
 <?php
 // database
-$conn = mysqli_connect("localhost", "root", "", "db_chatbot") or die("Database Error");
+$conn = mysqli_connect("sql12.freesqldatabase.com", "sql12652080", "IfmvW1LtNB", "sql12652080","3306") or die("Database Error");
 
 // getting user message
 $getMesg = mysqli_real_escape_string($conn, $_POST['text']);
