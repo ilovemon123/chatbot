@@ -11,30 +11,36 @@
 <body>
     <button class="chatbot-open" onclick="openForm()" id="chatbot-open-button"></button>
     <div class="chatbot-popup" id="chatbot-Popup">
-    <div class="chatbot-wrapper">
-        <div class="title">
-            <label class="title-left">Online Chatbot</label>
-            <span class="chatbot-close" onclick="closeForm()">x</span>
-        </div>
-        <div class="form">
-            <div class="bot-inbox inbox">
-                <div class="icon">
-                    <i class="fas fa-user"></i>
-                </div>
-                <div class="msg-header">
-                    <p style="word-break: keep-all;">Hello there , how can I help you?</p>
+
+        <div class="chatbot-wrapper">
+            <div class="title">
+                <label class="title-left">Online Chatbot</label>
+                <span class="chatbot-close" onclick="closeForm()">x</span>
+            </div>
+
+            <div class="form">
+                <div class="bot-inbox inbox">
+
+                    <div class="icon">
+                        <i class="fas fa-user"></i>
+                    </div>
+
+                    <div class="msg-header">
+                        <p style="word-break: keep-all;">Hello there , how can I help you?</p>
+                    </div>
+
                 </div>
             </div>
-        </div>
-        <div class="typing-field">
-            <div class="input-data">
-                <input id="data" type="text" placeholder="Type something here.." required>
-                <button id="send-btn">Send</button>
+
+            <div class="typing-field">
+                <div class="input-data">
+                    <input id="data" type="text" placeholder="Type something here.." required>
+                    <button id="send-btn">Send</button>
+                </div>          
             </div>
-            
+
         </div>
     </div>
-</div>
     <script>
         // send Button
         $(document).ready(function(){
