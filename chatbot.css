@@ -128,7 +128,7 @@
     background-color: aqua;
     background-repeat: no-repeat;
     background-position: bottom;
-    background-size: auto;
+    background-size: contain;
     color: white;
     padding: 16px 20px;
     border: none;
