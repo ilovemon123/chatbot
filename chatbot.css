@@ -124,7 +124,7 @@
 }
 
 .chatbot-open {
-    background-image: url(../chatbot/botIcon.png);
+    background: url(../chatbot/botIcon.png);
     background-color: aqua;
     background-repeat: no-repeat;
     background-position: bottom;
